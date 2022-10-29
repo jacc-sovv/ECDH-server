@@ -11,9 +11,11 @@ module load python/bundle-3.9.
   ```bash
   module unload python
   ```
-  first, then ```bash
+  first, then 
+  ```bash
   module load python/bundle-3.9
-  ``` Once we are all finished, if you want anaconda back, you can do this in reverse (i.e., module unload python followed by module load python/anaconda)
+  ``` 
+  Once we are all finished, if you want anaconda back, you can do this in reverse (i.e., module unload python followed by module load python/anaconda)  
 2) Install the cryptography library by:
 ```bash
 pip3 install cryptography --user
